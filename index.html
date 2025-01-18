@@ -16,12 +16,12 @@
     <a-scene
         vr-mode-ui="enabled: false"
 		embedded
-        arjs='sourceType: webcam; debugUIEnabled: false;'>
+        arjs='sourceType: webcam; debugUIEnabled: true;'>
         
         <a-entity 
             gltf-model="./assets/magnemite/scene.gltf"
             rotation="0 180 0"
-            scale="0.08 0.08 0.08"
+            scale="0.1 0.1 0.1"
             gps-entity-place="longitude: -73.256955; latitude: 10.473427;"
             animation-mixer/>
         <a-camera gps-camera rotation-reader></a-camera>
